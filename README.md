@@ -35,7 +35,10 @@ npm run serve
 - 메세지 검색을 이용하여, 접속한 유저의 모든 메세지에서 검색 키워드와 일치하는 대화를 추려서 노출합니다
 - html 태크를 시멘틱하게 정리합니다
 - 사용하지 않는 코드를 정리합니다 ( 초반에 웹 소켓으로 받아오는 데이터를 props로 내려서 갱신 해주는 것과 vuex로 갱신해 주는 부분 정리, 외..)
-- 메세지가 사용자의 ChatArea viewport에 노출된다면 graphql mutation으로 메세지가 읽은 상태로 데이터를 수정해줍니다.
+- 메세지가 사용자의 ChatArea viewport에 노출된다면 graphql mutation으로 메세지가 읽은 상태로 데이터를 수정해줍니다. 
+- 반복되는 graphql.mutation 함수 부분을 Vuex Action에 옮겨서 재사용 가능하도록 한다.
+
+
 ---
 
 ### Dependencies
