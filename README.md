@@ -1,9 +1,7 @@
 # TokoDoki-Chatroom
 RocketPunch 과제
-
-#### 웹소켓 메신저
-
-### 데모
+## 웹소켓 메신저
+---
 <img src="https://github.com/pikpokjeon/TokoDoki-Chatroom/blob/main/gUoVb601v0.gif" width="600">
 
 ### 기능구현 목표
@@ -12,7 +10,7 @@ RocketPunch 과제
 3. 여러 사용자가 자신의 메세지만을 확인 가능하도록 합니다.
 4. 등록되어있지 않은 유저에게 메세지를 보낸다면, 해당 이름의 유저가 등록한다면 기존 메세지를 보여줍니다.
 5. 새로운 메세지 보내기를 누르면, 받는 사람이 등록된 유저인지 아닌지 판별하여 보여줍니다. 
-
+---
 ### 프로젝트 시작하기
 
 1. 백엔드
@@ -23,7 +21,7 @@ npm run start
 ```
 npm run serve
 ```
-
+---
 ### 기술스택
 #### 백엔드
 1. Graphql Yoga 
@@ -33,6 +31,7 @@ npm run serve
 2. Graphql Apollo-Link
 3. Vue-Apollo
 4. Vuex
+---
 ### 참고사항
 - 백엔드 포트(8282) 와 프론트엔드 포트(8080)를 사용 중입니다. 
 -  요구조건을 충족하기 위하여 임의로 사용자 이름을 등록 후 사용가능 하도록 하였습니다.
@@ -43,6 +42,9 @@ npm run serve
 - html 태크를 시멘틱하게 정리합니다
 - 사용하지 않는 코드를 정리합니다 ( 초반에 웹 소켓으로 받아오는 데이터를 props로 내려서 갱신 해주는 것과 vuex로 갱신해 주는 부분 정리)
 - 메세지가 사용자의 ChatArea viewport에 노출된다면 graphql mutation으로 메세지가 읽은 상태로 데이터를 수정해줍니다.
+
+
+### 파일구조
 ```
 .
 └── Project/
