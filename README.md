@@ -25,16 +25,7 @@ npm run serve
 3. 접속 - http://localhost:8080/ 
 
 ---
-### 기술스택
-#### 백엔드
-1. Graphql Yoga 
 
-#### 프론트엔드
-1. Graphql Apollo-Client
-2. Graphql Apollo-Link
-3. Vue-Apollo
-4. Vuex
----
 ### 참고사항
 - 백엔드 포트(8282) 와 프론트엔드 포트(8080)를 사용 중입니다. 
 -  요구조건을 충족하기 위하여 임의로 사용자 이름을 등록 후 사용가능 하도록 하였습니다.
@@ -45,6 +36,38 @@ npm run serve
 - html 태크를 시멘틱하게 정리합니다
 - 사용하지 않는 코드를 정리합니다 ( 초반에 웹 소켓으로 받아오는 데이터를 props로 내려서 갱신 해주는 것과 vuex로 갱신해 주는 부분 정리, 외..)
 - 메세지가 사용자의 ChatArea viewport에 노출된다면 graphql mutation으로 메세지가 읽은 상태로 데이터를 수정해줍니다.
+---
+
+### Dependencies
+#### 백엔드
+| 이름 | 버전 | 
+| -------- | -------- | 
+| Graphql Yoga    | "^1.18.3"   |
+| babel-preset-env    |"^1.7.0"    |
+| babel-cli   | "6.26.0"    |
+
+#### 프론트엔드
+
+
+| 이름 | 버전 | 
+| -------- | -------- | 
+|Graphql Apollo-Client  | "^2.6.10"    |
+|Graphql Apollo-Link  | "^1.2.14"     |
+|apollo-cache-inmemory  | "^1.6.6"     |
+|apollo-link-http  | "^1.5.17"    |
+|apollo-link-ws  |"^1.0.20"     |
+|apollo-utilities | "^1.3.4"   |
+|core-js| "^3.6.5    |
+|graphql |  "^15.5.0"    |
+|graphql-tag| "^2.12.4"  |
+|subscriptions-transport-ws| "^0.10.0"  |
+|vue| "^2.6.14"   |
+|vue-apollo|  "^3.0.7" |
+|vuex| "^3.6.2" |
+
+---
+
+
 
 
 ### 파일구조
