@@ -1,0 +1,12 @@
+{
+  "name": "tokidoki",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "devDependencies": {
+    "vue-cli-plugin-apollo": "~0.22.2"
+  },
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.5.13"
+  }
+}
