@@ -1,5 +1,5 @@
-# TokoDoki-Chatroom
-RocketPunch 과제
+# TokiDoki
+RocketPunch 프론트엔드 과제
 ## 웹소켓 메신저
 ---
 <img src="https://github.com/pikpokjeon/TokoDoki-Chatroom/blob/main/gUoVb601v0.gif" width="600">
